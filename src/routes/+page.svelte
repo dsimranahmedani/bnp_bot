@@ -64,12 +64,16 @@
 
 <div class="flex flex-col pt-4 w-full px-8 items-center gap-2">
 	<div>
-		<h1 class="text-2xl font-bold w-full text-center">Chatty</h1>
-		<p class="text-sm italic">Powered by gpt-3.5-turbo</p>
+		<!-- place one image float to right corner -->
+		<img src="/bnp_dost_logo.png" alt="Image" style=" height: 80px; float: right;">
+
+		<!-- <img src="/bnp_dost_logo.png" class="flex" style="height: 100px;" alt="" srcset=""> -->
+		<h1 class="text-2xl font-bold w-full text-center">Benzair Nashonuma Programme (BNP) Virtual Dost</h1>
+		<p class="text-sm italic text-center">Developed By United Nations World Food Programme</p>
 	</div>
 	<div class="h-[500px] w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
-			<ChatMessage type="assistant" message="Hello, ask me anything you want!" />
+			<ChatMessage type="assistant" message="Hello, ask me anything you want! related to Benazir Nashonuma Programme " />
 			{#each chatMessages as message}
 				<ChatMessage type={message.role} message={message.content} />
 			{/each}
