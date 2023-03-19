@@ -69,12 +69,12 @@
 
 		<!-- <img src="/bnp_dost_logo.png" class="flex" style="height: 100px;" alt="" srcset=""> -->
 		<h1 class="text-2xl font-bold w-full text-center">Benzair Nashonuma Programme (BNP) Virtual Dost (Demo Only)</h1>
-		<p class="text-sm  text-center">Developed By United Nations World Food Programme</p>
-		<p class="text-sm italic text-center">Still this model is being trained on custom data, and this is for demo purpose only</p>
+		<p class="text-sm  italic text-center">Developed By United Nations World Food Programme</p>
+		<!-- <p class="text-sm italic text-center">Still this model is being trained on custom data, and this is for demo purpose only</p> -->
 	</div>
 	<div class="h-[500px] w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
-			<ChatMessage type="assistant" message="Hello, ask me anything related to Benazir Nashonuma Programme " />
+			<ChatMessage type="assistant" message="Hello, ask me anything related to Benazir Nashonuma Programme." />
 			{#each chatMessages as message}
 				<ChatMessage type={message.role} message={message.content} />
 			{/each}
