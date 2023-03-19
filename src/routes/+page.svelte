@@ -66,10 +66,14 @@
 	<div>
 		<!-- place one image float to right corner -->
 		<img src="/bnp_dost_logo.png" alt="Image" style=" height: 80px; float: right;">
+		
+		
+		<!-- <img src="/bnp_dost_logo.png" alt="Image" class="w-100 h-80 float-right"> -->
+
 
 		<!-- <img src="/bnp_dost_logo.png" class="flex" style="height: 100px;" alt="" srcset=""> -->
-		<h1 class="text-2xl font-bold w-full text-center">Benzair Nashonuma Programme (BNP) Virtual Dost (Demo Only)</h1>
-		<p class="text-sm  italic text-center">Developed By United Nations World Food Programme</p>
+		<h1 class="text-2xl text-white font-bold w-full text-center">Benzair Nashonuma Programme (BNP) Virtual Dost (Demo Only)</h1>
+		<p class="text-sm  text-white italic text-center">Developed By United Nations World Food Programme</p>
 		<!-- <p class="text-sm italic text-center">Still this model is being trained on custom data, and this is for demo purpose only</p> -->
 	</div>
 	<div class="h-[500px] w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
@@ -95,3 +99,4 @@
 		<button type="submit" class="btn btn-accent"> Send </button>
 	</form>
 </div>
+
